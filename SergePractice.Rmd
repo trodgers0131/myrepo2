@@ -10,3 +10,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Markdown
 
 Just making a practice document that perhaps we can all edit.
+
+```{r}
+library(datasets)
+data(mtcars)
+head(mtcars)
+
+library(dplyr)
+
+mtcars %>% select(mpg)
+```
