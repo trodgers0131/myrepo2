@@ -1,0 +1,12 @@
+---
+title: "SergePractice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Just making a practice document that perhaps we can all edit.
