@@ -1,7 +1,7 @@
 library(datasets)
-data(mtcars)
-head(mtcars)
+data(CO2)
+head(CO2)
 
 library(dplyr)
 
-mtcars %>% select(mpg)
+CO2 %>% select(Plant)
