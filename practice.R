@@ -1,7 +1,10 @@
 library(datasets)
-data(mtcars)
+#I deleted 'data(mtcars)'
 head(mtcars)
 
 library(dplyr)
 
 mtcars %>% select(mpg)
+
+
+
